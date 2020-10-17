@@ -31,7 +31,7 @@ from werkzeug.utils import secure_filename
 
 # Model saved with Keras model.save()
 MODEL_PATH = 'model_resnet.hdf5'
-MODEL_URL = 'https://github.com/paramsiddharth/cotton-leaf-disease/releases/download/v1.0/model_resnet.hdf5'
+MODEL_URL = 'https://github.com/DARK-art108/Cotton-Leaf-Disease-Prediction/releases/download/v1.0/model_resnet.hdf5'
 UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), 'static', 'uploads')
 
 # Download model if not present
