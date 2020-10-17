@@ -1,4 +1,4 @@
-# Cotton Leaf Disease Prediction Using Transfer Learning 🌿🍁
+# Cotton Leaf Disease Prediction Using Transfer Learning🌿🍁
 
 <p align="center">
   <img width="900" height="500" src="Utils/DSC_1119.jpg">
@@ -8,7 +8,7 @@
 
 This Deep Learning Web Application is build using Tensorflow-Keras in this we have used Transfer Learning in which we are using RESNET152V2 Architecture, this web application classify images of the diseased cotton leaf,fresh cotton leaf,diseased cotton plant and fresh cotton plant.During creating a perfect model we have trained this Cotton Leaf Image Dataset with Different Transfer Learning Architectures.Our model performs fairly good over 20 epochs with an Validation Accuracy of 0.99 on a batch size of 32.This provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Image Classification Problems where time and accuracy is the paramount objective of classification.
 
-## **Benchmarks of Different Transfer Learning Architecture on our Dataset:**
+## 🤖 **Benchmarks of Different Transfer Learning Architecture on our Dataset:**
 
 **1. InceptionNetV3 Performance:**
 
