@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cotton Leaf Disease Prediction</title>
+        <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href='{{ url_for("static", filename="css/main.css") }}' rel="stylesheet">
+        <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container h-100">
+            <div class='row justify-content-center h-100'>
+                <div id="content" class='col-12 col-md-4 align-self-center text-center'>
+                    <div class='row'>
+                        <div class='col-12'>
+                            <h3>Please upload an image</h3>
+                            {% if err %}<h4 class='text-danger'>{{ err }}</h4>{% endif %}
+                        </div>
+                        <div class='col-12'>
+                            <form action='/' method='POST' enctype='multipart/form-data'>
+                                <div class='form-group'>
+                                    <div class='custom-file'>
+                                        <input type='file' class='custom-file-input' id='image' name='image'/>
+                                        <label class='custom-file-label text-left' for='image'>Choose image</label>
+                                    </div>
+                                    <button type='submit' class='btn btn-primary btn-block'>Predict{% if result %} again{% endif %}!</button>
+                                </div>
+                            </form>
+                        </div>
+                        {% if result %}
+                        {% if img %}<div class='col-12'>
+                            <img class='img-fluid' src='/static/uploads/{{ img }}' alt='Plant'/>
+                        </div>{% endif %}
+                        <div class='col-12'>
+                            <h4>Prediction: {{ result }}</h4>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src='{{ url_for("static", filename="js/main.js") }}'></script>
+    </body>
+</html>
