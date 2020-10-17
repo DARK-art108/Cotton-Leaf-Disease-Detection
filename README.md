@@ -124,7 +124,7 @@ For this Project Run this CMD:
 ## 📊 Repo Stats
 
 ![Repo Size](https://img.shields.io/github/repo-size/DARK-art108/Cotton-Leaf-Disease-Prediction?style=for-the-badge)
-![License](https://img.shields.io/github/license/DARK-art108/Cotton-Leaf-Disease-Prediction?style=for-the-badge)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 ![Forks](https://img.shields.io/github/forks/DARK-art108/Cotton-Leaf-Disease-Prediction?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/DARK-art108/Cotton-Leaf-Disease-Prediction?style=for-the-badge)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
