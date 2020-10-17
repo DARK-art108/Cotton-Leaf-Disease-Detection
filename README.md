@@ -1,4 +1,4 @@
-# Cotton Leaf Disease Prediction Using Transfer Learning🌿🍁
+# Cotton Leaf Disease Prediction Using Transfer Learning🌿
 
 <p align="center">
   <img width="900" height="500" src="Utils/DSC_1119.jpg">
