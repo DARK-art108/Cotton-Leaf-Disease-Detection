@@ -79,7 +79,7 @@ https://github.com/DARK-art108/Cotton-Leaf-Disease-Prediction.git
 pip install -r requirements.txt
 ```
 ## Run your Flask APP
-**Credits given to my Best Friend [Param Siddharth](https://github.com/paramsiddharth) for his awesome work over Frontend Build**
+**Credits given to my Best Friend [Param Siddharth](https://github.com/paramsiddharth) for his awesome work over Frontend Build!!**
 
 <p align="center">
   <img  src="Utils/Flask.png">
