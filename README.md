@@ -119,7 +119,7 @@ For this Project Run this CMD:
      
  ## 📜 LICENSE
 
-[MIT](https://github.com/DARK-art108/Cotton-Leaf-Disease-Prediction/blob/master/LICENSE)
+[MIT](https://github.com/DARK-art108/Cotton-Leaf-Disease-Prediction/blob/main/LICENSE)
 
 ## 📊 Repo Stats
 
