@@ -72,7 +72,7 @@ However, despite these impressive numbers, the productivity per hectare is stark
 2. Clone the Repo by going to your local Git Client and pushing in the command: 
 
 ```sh
-https://github.com/DARK-art108/Cotton-Leaf-Disease-Prediction.git
+git clone https://github.com/DARK-art108/Cotton-Leaf-Disease-Prediction.git
 ```
 3. Install the Packages: 
 ```sh
